@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Lato;
+    color: #222222;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+header__box-top {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+    border-top: 3px solid #ececec;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header__box {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.account__button {
+    background-color: #f16d7f;
+    padding: 12px 20px;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: right;
+    letter-spacing: 0.38px;
+}
+.account__button:hover {
+    border: solid 1px #f16d7f;
+    background-color: #ffffff;
+    color: #f16d7f;
+}
+.account__button-arrow {
+    padding-left: 8px;
+}
+.header__box-menu {
+    border-top: 1px solid #ececec;
+}
+.header__box-menu__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 19px;
+    margin-bottom: 22px;
+}
+.header__box-menu__list_el {
+    padding: 0 22px;
+}
+.header__box-menu__list_link {
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 26px;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222222;
+}
+.header__box-menu__menu_link:hover {
+    text-decoration: underline;
+}
+.header__box-banner {
+    background-color: #e8e8e8;
+}
+.header__box-banner__block {
+    position: relative;
+    height: 613px;
+    background: url("../images/banner.png");
+}
+.header__box-banner__block-text {
+    position: absolute;
+    top: 224px;
+    border-left: 12px solid #f16d7f;
+    width: 497px;
+}
+.banner__text-heading {
+    padding-left: 12px;
+    font-weight: 900;
+    font-size: 60px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.banner__text-desc {
+    padding-left: 12px;
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.banner__text-desc_pink {
+    color: #f16d7f;
+}
+.main__box-shop__category {
+    margin-top: 98px;
+    display: flex;
+    justify-content: space-between;
+}
+.main__box-shop__category_block-right {
+    margin-left: 20px;
+}
+.shop__category-block__1 {
+    position: relative;
+    width: 560px;
+    height: 542px;
+    background: url("../images/category_1.jpg");
+}
+.shop__category-block__2 {
+    position: relative;
+    margin-top: 20px;
+    width: 560px;
+    height: 261px;
+    background: url("../images/category_2.jpg");
+}
+.shop__category-block__3 {
+    position: relative;
+    width: 560px;
+    height: 261px;
+    background: url("../images/category_3.jpg");
+}
+.shop__category-block__4 {
+    position: relative;
+    margin-top: 20px;
+    width: 560px;
+    height: 542px;
+    background: url("../images/category_4.jpg");
+}
+.shop__category-block-text {
+    position: absolute;
+    top: 26px;
+    background-color: #ffffff;
+    padding: 16px 20px;
+}
+.category__text-heading {
+    font-size: 18px;
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: 0.45px;
+    text-transform: uppercase;
+}
+.category__text-desc {
+    font-weight: 900;
+    text-align: left;
+    color: #f16d7f;
+    font-size: 30px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+}
+.main__box-shop__block-products {
+    margin-top: 100px;
+}
+.block-products__heading {
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 54px;
+    text-align: center;
+}
+.block-products__text {
+    color: #9f9f9f;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.35px;
+    padding-bottom: 20px;
+}
+.main__box-shop__block-products_list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.block-product__item-heading {
+    margin-top: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.block-product__item-price {
+    margin-top: 17px;
+    color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+}
