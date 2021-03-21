@@ -26,6 +26,7 @@ header__box-top {
     list-style-type: none;
 }
 .account__button {
+    border: solid 1px #ffffff;
     background-color: #f16d7f;
     padding: 12px 20px;
     border: none;
@@ -202,7 +203,7 @@ header__box-top {
     background-color: #f16d7f;
     padding: 14px 24px;
     letter-spacing: 0.4px;
-    border: none;
+    border: solid 1px #ffffff;
 }
 .block-product__button-all:hover {
     border: solid 1px #f16d7f;
