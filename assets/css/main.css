@@ -67,8 +67,8 @@ header__box-top {
     text-decoration: none;
     color: #222222;
 }
-.header__box-menu__menu_link:hover {
-    text-decoration: underline;
+.header__box-menu__list_link:hover {
+    color: #f16d7f;
 }
 .header__box-banner {
     background-color: #e8e8e8;
@@ -287,6 +287,31 @@ header__box-top {
     line-height: 24px;
     text-align: justify;
     letter-spacing: 0.35px;
+}
+.footer__box-menu__heading {
+    color: #f16d7f;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+}
+.footer__box-menu__list {
+    list-style-type: none;
+    margin-top: 45px;
+}
+.menu__list-el {
+    margin-top: 30px;
+}
+.menu__list-el__link {
+    color: #898989;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+}
+.menu__list-el__link:hover {
+    color: #f16d7f;
 }
 .footer__box-bottom {
     background-color: #e6e6e6;
