@@ -321,6 +321,60 @@ header__box-top {
 .review__selecters-item:hover {
     background-color: #f16d7f;
 }
+.block__subscribe-form__heading {
+    font-weight: 400;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+.block__subscribe-form__text {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.35px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-bottom: 35px;
+}
+.block__subscribe-form {
+    margin-top: 148px;
+    margin-left: 165px;
+}
+.block__subscribe-form__item {
+    display: flex;
+    justify-content: left;
+}
+.subscribe__form-input {
+    border: #e1e1e1;
+    border-bottom-left-radius: 23px;
+    border-top-left-radius: 23px;
+    background-color: #e1e1e1;
+    width: 282px;
+    height: 46px;
+    opacity: 0.67;
+    color: #222224;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 28px;
+    letter-spacing: 0.35px;
+}
+.subscribe__form-button {
+    width: 104px;
+    height: 46px;
+    border: #f16d7f;
+    border-bottom-right-radius: 23px;
+    border-top-right-radius: 23px;
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+}
+.subscribe__form-input:focus,
+.subscribe__form-button:focus {
+    outline: none;
+}
 .footer__box {
     margin-top: 109px;
     display: flex;
