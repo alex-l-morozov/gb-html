@@ -15,9 +15,15 @@
     <div class="header__box-top">
         <div class="container header__box">
             <div class="header__box-logo"><a href="./index.html"><img src="./assets/images/logo.png" alt="logo"></a></div>
-            <div class="search"></div>
-            <div class="cart"></div>
-            <div class="account__box"><button class="account__button">My Account <i class="fas fa-caret-down account__button-arrow"></i></button></div>
+            <div class="header__box-search">
+                <form class="header__box-search__form">
+                    <button class="search__form-browse">Browse <i class="fas fa-caret-down account__button-arrow"></i></button>
+                    <input class="search__form-input" type="text" name="q" value="" placeholder="Search for Item...">
+                    <button class="search__form-submit" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <div class="header__box-cart"><a class="" href="#"><img src="./assets/images/cart.svg" alt="cart"></a></div>
+            <div class="header__box-account__box"><button class="account__button">My Account <i class="fas fa-caret-down account__button-arrow"></i></button></div>
         </div>
     </div>
     <div class="header__box-menu">
@@ -197,7 +203,12 @@
                 </div>
             </div>
             <div class="block__subscribe-form">
-
+                <h4 class="block__subscribe-form__heading">Subscribe</h4>
+                <p class="block__subscribe-form__text">FOR OUR NEWLETTER AND PROMOTION</p>
+                <form class="block__subscribe-form__item">
+                    <input class="subscribe__form-input" type="email" name="email" value="" placeholder="Enter Your Email">
+                    <button class="subscribe__form-button" type="submit">Subscribe</button>
+                </form>
             </div>
         </div>
 
