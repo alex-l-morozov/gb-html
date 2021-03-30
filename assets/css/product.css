@@ -1,3 +1,18 @@
+.block-product {
+    height: 777px;
+    border: 1px solid #eaeaea;
+    background-color: #f7f7f7;
+}
+.block-product__container {
+    text-align: center;
+}
+.block-product__detail {
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: -50px;
+}
+
 .main__box-shop__block-products {
     margin-top: 100px;
 }
@@ -78,6 +93,7 @@
 }
 .item-card-add__link:hover {
     box-shadow: 0 0 10px #fff;
+    color: #ffffff;
 }
 .item-card-add__img {
     margin-right: 7px;
