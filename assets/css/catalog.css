@@ -130,6 +130,7 @@ header__box-top {
 }
 
 .header__box-menu__list_el:hover .menu__list_el-mega__box {
+  z-index: 1;
   display: flex;
 }
 
