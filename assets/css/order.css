@@ -564,4 +564,83 @@ header__box-top {
   border-top: none;
 }
 
+.form__order {
+  display: flex;
+  justify-content: space-between;
+}
+.form__order .mt-20 {
+  margin-top: 20px;
+}
+.form__order .ml-30 {
+  margin-left: 30px;
+}
+.form__order .mr-150 {
+  margin-right: 150px;
+}
+.form__order .red {
+  color: #ff0d0d;
+}
+.form__order .btn-primary {
+  margin-top: 10px;
+  padding: 16px 55px;
+  width: auto;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  font-size: 11px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4a4a4a;
+}
+.form__order .btn-primary:hover {
+  border: solid 1px #eaeaea;
+  background-color: #eaeaea;
+}
+.form__order .form-check-input:checked {
+  background-color: #4a4a4a;
+  border-color: #4a4a4a;
+}
+.form__order .form-control {
+  width: 390px;
+  height: 45px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+}
+.form__order .form-label {
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222;
+}
+.form__order .form-label span {
+  color: #ff0d0d;
+}
+.form__order .forgot {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #222222;
+  text-decoration: none;
+  margin-left: 50px;
+}
+.form__order .forgot:hover {
+  text-decoration: underline;
+}
+
+.form__order-heading {
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.form__order-text {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #b3b2b2;
+}
+
 /*# sourceMappingURL=order.css.map */
