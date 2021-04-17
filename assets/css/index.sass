@@ -40,28 +40,46 @@
 .shop__category-block
   display: block
   position: relative
+  &:hover
+    box-shadow: #f16d7f 0 0 15px
+    .shop__category-block-text
+      background-color: #f16d7f
+    .category__text-desc
+      color: #ffffff
 
 .shop__category-block__1
   width: 560px
   height: 542px
   background: url("../images/category_1.jpg")
+  transition: all .5s
+  &:hover
+    transform: scale(1.1) translate(-50px, -50px)
 
 .shop__category-block__2
   margin-top: 20px
   width: 560px
   height: 261px
   background: url("../images/category_2.jpg")
+  transition: all .5s
+  &:hover
+    transform: scale(1.3) translate(-100px, 50px)
 
 .shop__category-block__3
   width: 560px
   height: 261px
   background: url("../images/category_3.jpg")
+  transition: all .5s
+  &:hover
+    transform: scale(1.3) translate(100px, -50px)
 
 .shop__category-block__4
   margin-top: 20px
   width: 560px
   height: 542px
   background: url("../images/category_4.jpg")
+  transition: all .5s
+  &:hover
+    transform: scale(1.1) translate(50px, 50px)
 
 .shop__category-block-text
   position: absolute
