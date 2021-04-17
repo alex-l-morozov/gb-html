@@ -17,6 +17,7 @@ button {
   font-weight: normal;
   letter-spacing: normal;
   line-height: normal;
+  transition: color 0.5s, background-color 0.5s;
 }
 
 .header__box-top {
@@ -221,6 +222,19 @@ button {
   color: #f16d7f;
 }
 
+@keyframes sale-animation {
+  0% {
+    color: white;
+  }
+  100% {
+    color: #f16d7f;
+    transform: scale(1.25);
+  }
+}
+.header__box-menu__list_el:hover .menu__list_el-mega__box .menu__list-el-mega__sale p {
+  animation: sale-animation 0.5s linear 0s infinite normal;
+}
+
 .menu__list-el-mega__sale {
   position: relative;
   display: block;
@@ -229,6 +243,15 @@ button {
   width: 255px;
   height: 118px;
   margin-top: 22px;
+}
+.menu__list-el-mega__sale:hover {
+  box-shadow: #f16d7f 0 0 15px;
+  transition: 0.5s;
+}
+.menu__list-el-mega__sale:hover p {
+  color: #f16d7f;
+  transform: scale(1.25);
+  transition: 0.5s;
 }
 
 .menu__list-el-mega__sale_text {
@@ -241,6 +264,7 @@ button {
   line-height: 28px;
   text-transform: uppercase;
   letter-spacing: 0.55px;
+  transition: all 0.5s;
 }
 
 .block__page-nav {

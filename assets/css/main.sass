@@ -15,6 +15,7 @@ button
   font-weight: normal
   letter-spacing: normal
   line-height: normal
+  transition: color .5s, background-color .5s
 
 .header__box-top
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.17)
@@ -189,6 +190,16 @@ button
 .header__box-menu__list_link:hover
   color: #f16d7f
 
+@keyframes sale-animation
+  0%
+    color: white
+  100%
+    color: #f16d7f
+    transform: scale(1.25)
+
+.header__box-menu__list_el:hover .menu__list_el-mega__box .menu__list-el-mega__sale p
+  animation: sale-animation .5s linear 0s infinite normal
+
 .menu__list-el-mega__sale
   position: relative
   display: block
@@ -197,6 +208,13 @@ button
   width: 255px
   height: 118px
   margin-top: 22px
+  &:hover
+    box-shadow: #f16d7f 0 0 15px
+    transition: .5s
+  &:hover p
+    color: #f16d7f
+    transform: scale(1.25)
+    transition: .5s
 
 .menu__list-el-mega__sale_text
   position: absolute
@@ -208,6 +226,7 @@ button
   line-height: 28px
   text-transform: uppercase
   letter-spacing: 0.55px
+  transition: all .5s
 
 .block__page-nav
   height: 148px
