@@ -20,6 +20,10 @@ button {
   transition: color 0.5s, background-color 0.5s;
 }
 
+button:active, button:focus, input:active, input:focus, select:active, select:focus {
+  outline: none !important;
+}
+
 .header__box-top {
   border-top: 3px solid #ececec;
 }
@@ -633,6 +637,35 @@ button {
   text-transform: uppercase;
   color: #6f6e6e;
   padding-left: 2px;
+}
+
+.catalog__dropdown-sort, .catalog__dropdown-by {
+  margin: 10px 0 10px 10px;
+  display: block;
+  float: left;
+  background-color: #ffffff;
+  border: 1px solid #ebebeb;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #6f6e6e;
+  padding: 6px 20px;
+}
+
+.catalog__dropdown-sort__select, .catalog__dropdown-by__select {
+  margin: 10px 0;
+  border: 1px solid #ebebeb;
+  border-radius: 0;
+  float: left;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #6f6e6e;
+  width: 100px;
+}
+
+.catalog__dropdown-by__select {
+  width: 60px;
 }
 
 .accordion-button {
