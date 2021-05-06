@@ -1,1 +1,1 @@
-# gb-layout-shop
+# gb-html
